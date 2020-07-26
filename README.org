@@ -1,0 +1,2 @@
+* Running external terminal with tmux session in it to debug python code from emacs
+At the time where I wrote this, tools like ipdb didn't run very well out-of-the-box inside emacs terminal emulators (specifically: no autocompletion). This code makes the back and forth switching between two windows (+running the python command, setting up the conda environment) easier. 
